@@ -1,0 +1,51 @@
+body {
+  background-image: linear-gradient(rgb(255, 230, 0), rgb(228, 222, 222), rgb(255, 230, 0));
+}
+
+#Heading {
+  margin-top: 0rem;
+  text-align: center;
+  font-size: 7rem;
+}
+
+.board {
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: orange;
+}
+
+td {
+  width: 150px;
+  height: 150px;
+  font-size: 6rem;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  background-image: url(https://tse3.mm.bing.net/th/id/OIP.TmBGS23K4XtGRZXPpDvAMAHaEo?rs=1&pid=ImgDetMain&o=7&rm=3);
+  background-size: cover;
+  cursor: pointer;
+}
+
+.status {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.player {
+  color: rgb(7, 130, 7);
+}
+
+.bot {
+  color: red;
+}
+
+.tie {
+  color: blue;
+}
+#status{
+  font-size: 3rem;
+  color: purple;
+  display: block;
+  text-align: center;
+}

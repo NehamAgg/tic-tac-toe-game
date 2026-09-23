@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=80c26dd8-3670-425b-9e0f-bc27bf91a5b2
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="Heading">Tic Tac Toe</h1>
+  
+  <table class="board">
+    <tr>
+      <td id="box1" class="box"></td>
+      <td id="box2" class="box"></td>
+      <td id="box3" class="box"></td>
+    </tr>
+    <tr>
+      <td id="box4" class="box"></td>
+      <td id="box5" class="box"></td>
+      <td id="box6" class="box"></td>
+    </tr>
+    <tr>
+      <td id="box7" class="box"></td>
+      <td id="box8" class="box"></td>
+      <td id="box9" class="box"></td>
+    </tr>
+  </table>
+    <span id="status"> Your Turn</span>
+
+  <!-- PLAYER WINS AND BOT WINS -->
+  <div class="status">
+    <span class="player">Player Wins :</span>
+    <span class="player" id="playerWins">0</span>
+    <span class="bot">Bot Wins :</span>
+    <span class="bot" id="botWins">0</span>
+    <span class="tie">Tie :</span>
+    <span class="tie" id="tie">0</span>
+  </div><br><br><br><br><br><br>
+  <div>Made By Neham</div>
+  <script src="index.js"></script>
+</body>
+</html>
